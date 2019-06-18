@@ -59,7 +59,7 @@ footer{
   color: red;
 }
 
-.feature {
+.feature,.defi {
   border: 1px solid #4a4a4a;
   margin: 15px;
   padding: 15px;
@@ -123,13 +123,4 @@ nav ul {
 
 #welcome h4{
  font-size: 50px;
-}
-
-.feature,.defi{
-  border: 1px solid #F2F2F2;
-  background: #FAFAFA;
-  margin: 15px;
-  padding: 15px;
-  text-align: center;
-  width: 400px;
 }
