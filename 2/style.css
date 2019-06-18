@@ -4,26 +4,26 @@ body{
   background: #fff;
   color: #000; 
   font-size: 16px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Arial', sans-serif;
   margin:0;
 }
 
 nav{
   display:inline;
   font-size: 1em;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Arial', sans-serif;
 } 
 
 h1{
-  font-family: 'Roboto', sans-serif;
-  color:  #41A3C0; 
+  font-family: 'Arial', sans-serif;
+  color: #41A3C0; 
   font-weight: bolder;
   font-size: 2em;
 }
 
 h2 {
-  font-family: 'Roboto', sans-serif;
-  color: #fff;
+  font-family: 'Arial', sans-serif;
+  color: #FA7268;
   font-weight: lighter;
   font-size: 1.5em;
 }
@@ -41,6 +41,12 @@ a:hover {
   color: rgb(225, 0, 152);
 }
 
+footer{
+  text-align : center;
+  background : #4a4a4a;
+  padding: 10px;
+}
+
 #logo{
   color: #fff;
   font-size: 35px;
@@ -49,23 +55,26 @@ a:hover {
   margin-left: 50px;
 }
 
+.red{
+  color: red;
+}
+
 .feature {
-  border: 2px solid #F2F2F2;
+  border: 1px solid #4a4a4a;
   margin: 15px;
-  padding: 15px 0;
+  padding: 15px;
   text-align: center;
   width: 400px;
-  background: #595934;
-  color: #FFF;
+  background: #e1e1e1;
+  color: #FA7268;
 }
 
 #apropos{
-  border: 3px solid #F2F2F2;
-  margin: 15px;
   width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
 }
 
 nav li {
@@ -78,16 +87,14 @@ nav ul {
   margin-top: 25px;
 }
 
-
-
 /* Mise en forme de la baseline */
 #baseline{
-  background-color: #595934;
+  background-color: #FA7268;
   text-align: center;
   background-size: cover;
   padding: 150px;
   color: white;
-  text-shadow: 1px 1px 5px black;
+  text-transform: uppercase; 
 }
 
 #baseline h1 {
